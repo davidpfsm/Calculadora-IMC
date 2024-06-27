@@ -1,0 +1,109 @@
+/* Reset de margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Estilos para o body */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('blue-370127_960_720.webp');
+     
+    
+}  
+
+/* Estilos para o container */
+.container {
+    width: 80%;
+    margin: 200px auto;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 70px;
+}
+
+/* Estilos para os inputs */
+.input {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 25px;
+}
+
+/* Estilos para o botão */
+#button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+     font-size: 25px;
+}
+
+#button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    font-size: 40px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: #ccc;
+    font-size: 1.4rem
+}
+    
+.footer-logo {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 2rem;
+    margin-top: 8%;
+}
+   
+
+   
+   
+
+
+
+
+
+    
+
+   
+    
